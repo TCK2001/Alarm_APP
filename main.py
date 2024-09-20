@@ -10,7 +10,7 @@ from PyQt5.QtGui import QIcon
 from PyQt5.QtMultimedia import QMediaPlayer, QMediaContent
 import yt_dlp
 
-from styles import apply_event_dialog_stylesheet, apply_slider_stylesheet, apply_stylesheet, apply_edit_delete_stylesheet
+from styles import apply_slider_stylesheet, apply_stylesheet, apply_edit_delete_stylesheet
 from event_dialog import EventDialog, URLInputDialog
 
 class MainWindow(QMainWindow):
