@@ -28,7 +28,7 @@ class MainWindow(QMainWindow):
         self.event_list.itemDoubleClicked.connect(self.event_double_clicked)
 
         self.setWindowTitle(f"Event Manager-TCK")
-        self.setWindowIcon(QIcon("event.png"))
+        self.setWindowIcon(QIcon("./images/event.png"))
         self.setFixedSize(300, 500)
         
         # Create QLabel for the song name (scrolling)
