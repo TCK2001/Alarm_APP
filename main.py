@@ -74,7 +74,7 @@ class MainWindow(QMainWindow):
         # Set up a QTimer to check for upcoming events every minute
         self.event_check_timer = QTimer(self)
         self.event_check_timer.timeout.connect(self.check_upcoming_events)
-        self.event_check_timer.start(60000)  # 1000 ms = 1 sec
+        self.event_check_timer.start(10000)  # 1000 ms = 1 sec
 
         # Layout
         layout = QVBoxLayout()
