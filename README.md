@@ -20,8 +20,12 @@ To prevent this, we integreted the app with a database to record schedules and s
 ```event_dialog.py``` : A python file that creates a `schedule insertion GUI (edit.png)` and a `Youtube music URL` input GUI. (Refer to the image below)
 
 <img src = './images/insert.png' width = 450, height = 150></img> (edit.png)   
-<img src = './images/music_gui.png' width = 450, height = 160></img> (music_gui.png.png)  
+<img src = './images/music_gui.png' width = 430, height = 160></img> (music_gui.png.png)  
 
 ```styles.py``` : For decorating each dialog.
 
+---
+## Alarm example image
+<img src = './images/alarm.png' width = 430, height = 160></img> (alarm.png.png)  
 
+If you have any questions or something is unclear, don't hesitate to ask anytime !! thank you
